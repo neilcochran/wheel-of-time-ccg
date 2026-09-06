@@ -1,14 +1,9 @@
 /**
  * Card model for the Wheel of Time CCG.
  *
- * Every vocabulary below was derived from the 617 rows in `data/csv` and
- * cross-checked against the per-set rarity lists published with the game. Each
- * one is declared as a runtime array and its type derived from that array, so
- * the importer validates against exactly the values the type permits.
- *
- * The vocabularies are closed on purpose: the game has been out of print since
- * 2002, so the card pool is fixed and any value outside these sets is a data
- * error rather than a new card.
+ * Each vocabulary is a runtime array with its type derived from that array, so
+ * the importer validates against exactly the values the type permits. The
+ * vocabularies are closed: a value outside them is a data error.
  */
 
 /** The five published card sets, in set-number order. */
@@ -53,11 +48,10 @@ export type CardType = (typeof CARD_TYPES)[number];
 export const RARITY_CODES = ['C', 'U', 'U1', 'R', 'R1', 'R2', 'R3', 'F', 'F/C', 'P'] as const;
 
 /**
- * Rarity exactly as encoded in the source CSVs.
+ * Rarity exactly as encoded in the source data.
  *
- * These codes conflate two ideas: how common the card is, and which of several
- * separately collated print groups it belongs to. Prefer {@link RarityClass}
- * for display and keep this for collection tracking. See {@link CardRarity}.
+ * A code carries both a rarity class and, for the numbered codes, a print sheet
+ * frequency. {@link CardRarity} splits the two apart.
  */
 export type RarityCode = (typeof RARITY_CODES)[number];
 
@@ -77,33 +71,21 @@ export const RARITY_CLASSES = [
  */
 export type RarityClass = (typeof RARITY_CLASSES)[number];
 
-/** Print groups that appear within a rarity class. */
-export const RARITY_GROUPS = ['R1', 'R3', 'U1'] as const;
-
-/**
- * A separately collated print group within a rarity class.
- *
- * Dark Prophecies and Children of the Dragon divide their rares and uncommons
- * into groups. The official rarity lists label the largest group plainly
- * ("Rare", encoded `R2` in the source data) and the smaller ones by group
- * ("Rare (R1)"). Premiere, Cycles and the promos use no groups.
- *
- * `R1` is the scarce one. Both expansions print exactly 8 of them, collector
- * guides single them out as the cards worth chasing, and sellers listing a
- * "complete set" routinely exclude precisely those 8. `R3` is the same size in
- * Dark Prophecies and is probably another short print run, but nothing found so
- * far documents the collation ratios.
- */
-export type RarityGroup = (typeof RARITY_GROUPS)[number];
-
-/** How a card was distributed, split into a display form and the raw code. */
+/** How a card was distributed. */
 export interface CardRarity {
   /** The code as it appears in the source data. */
   readonly code: RarityCode;
-  /** The rarity as printed in the official rarity lists. Use this for display. */
+  /** The rarity class. Use {@link formatRarity} to render it. */
   readonly class: RarityClass;
-  /** Print group within the class, when the set divides that class into groups. */
-  readonly group?: RarityGroup;
+  /**
+   * How many times the card appears on its print sheet.
+   *
+   * Fewer appearances means harder to pull, so this orders scarcity within a
+   * class: an `R1` at 1 is a chase rare, an `R3` at 3 is the easiest rare to
+   * find. Absent for `F` and `P`, which came from starter decks and promotions
+   * rather than booster packs.
+   */
+  readonly sheetFrequency?: number;
 }
 
 /**
@@ -269,10 +251,8 @@ export const ABILITY_TRACK_COLOURS: Readonly<Record<AbilityTrack, string>> = {
 /**
  * A card's rating in one ability track.
  *
- * Both fields are absent rather than zero when the card has no rating in that
- * track, which is the common case: only Character and Troop cards carry
- * ratings, and most of those carry ratings in only some tracks. The source data
- * contains no explicit zeroes anywhere, so a zero here would be an import bug.
+ * A field is absent rather than zero when the card has no rating in that track.
+ * The data holds no zeroes, so a zero here is an import bug.
  */
 export interface AbilityRating {
   /** Dice the card rolls in this track. Absent if it has no rating. */
@@ -326,12 +306,9 @@ export interface Card {
   /** Keywords printed on the card. Empty when the card has none. */
   readonly attributes: readonly Attribute[];
   /**
-   * Credited artist.
+   * Credited artist, present on every card.
    *
-   * Present on every card, though the field stays optional because the credit
-   * is not printed on the cards themselves and comes from external
-   * catalogues. A few cards credit two artists as a single "A and B" string,
-   * as the source does.
+   * A few cards credit two artists as a single "A and B" string.
    */
   readonly artist?: string;
   /** Rules text. Absent when the card has none. */
@@ -345,12 +322,9 @@ export interface Card {
   /** Thumbnail filename of the canonical printing, relative to `data/images/<setId>/`. */
   readonly thumbnail: string;
   /**
-   * Other printings of this same card, absent for all but a handful.
+   * Other printings of this same card.
    *
-   * Only printings the publisher catalogued separately appear here, because
-   * those are the only ones the source data distinguishes. Collector sources
-   * describe further in-run corrections that no catalogue tracked; see the
-   * project plan.
+   * Only printings the publisher catalogued separately appear here.
    */
   readonly otherPrintings?: readonly CardPrinting[];
 }

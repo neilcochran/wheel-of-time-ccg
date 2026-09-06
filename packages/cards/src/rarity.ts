@@ -1,53 +1,53 @@
-import type { CardRarity, RarityClass, RarityCode, RarityGroup } from './types.ts';
+import type { CardRarity, RarityClass, RarityCode } from './types.ts';
 
 /**
- * How each source rarity code maps onto a display class and, where the set
- * collates a class into several groups, which group the card belongs to.
+ * The rarity class and print sheet frequency each source code stands for.
  *
- * Derived from the official per-set rarity lists, whose group headings and
- * counts match the source CSVs exactly:
- *
- * - Premiere: Fixed (47), Fixed/Common (3), Common (72), Uncommon (75), Rare (100)
- * - Dark Prophecies: Common (50), Uncommon (49), Uncommon (U1) (2), Rare (34), Rare (R1) (8), Rare (R3) (8)
- * - Children of the Dragon: Common (50), Uncommon (50), Rare (46), Rare (R1) (8)
- * - Cycles: Fixed (4)
- *
- * Note that `R2` is not a third tier of rare. It is how the source data encodes
- * the group the rarity lists label plainly as "Rare", which is the largest rare
- * group in both sets that use groups.
+ * `F` and `P` have no frequency: fixed cards came in starter decks and promos
+ * were handed out, so neither was collated into boosters. The importer asserts
+ * that every other code fills its set's print sheets exactly.
  */
-const RARITY_BY_CODE: Readonly<Record<RarityCode, { class: RarityClass; group?: RarityGroup }>> = {
-  C: { class: 'Common' },
-  U: { class: 'Uncommon' },
-  U1: { class: 'Uncommon', group: 'U1' },
-  R: { class: 'Rare' },
-  R1: { class: 'Rare', group: 'R1' },
-  R2: { class: 'Rare' },
-  R3: { class: 'Rare', group: 'R3' },
+const RARITY_BY_CODE: Readonly<
+  Record<RarityCode, { class: RarityClass; sheetFrequency?: number }>
+> = {
+  C: { class: 'Common', sheetFrequency: 2 },
+  U: { class: 'Uncommon', sheetFrequency: 2 },
+  U1: { class: 'Uncommon', sheetFrequency: 1 },
+  R: { class: 'Rare', sheetFrequency: 1 },
+  R1: { class: 'Rare', sheetFrequency: 1 },
+  R2: { class: 'Rare', sheetFrequency: 2 },
+  R3: { class: 'Rare', sheetFrequency: 3 },
   F: { class: 'Fixed' },
-  'F/C': { class: 'Fixed/Common' },
+  'F/C': { class: 'Fixed/Common', sheetFrequency: 2 },
   P: { class: 'Promo' },
 };
 
+/** Codes that name a print group, and so are shown alongside the class. */
+const NUMBERED_CODES: ReadonlySet<RarityCode> = new Set<RarityCode>(['R1', 'R2', 'R3', 'U1']);
+
 /**
- * Expand a source rarity code into its display class and print group.
+ * Expand a source rarity code into its class and print sheet frequency.
  *
  * @param code - The rarity code from the source data.
- * @returns The rarity, with `group` present only when the code names one.
+ * @returns The rarity, with `sheetFrequency` present only for codes that were
+ *          collated into booster packs.
  */
 export function toCardRarity(code: RarityCode): CardRarity {
   const mapped = RARITY_BY_CODE[code];
-  return mapped.group === undefined
+  return mapped.sheetFrequency === undefined
     ? { code, class: mapped.class }
-    : { code, class: mapped.class, group: mapped.group };
+    : { code, class: mapped.class, sheetFrequency: mapped.sheetFrequency };
 }
 
 /**
- * Format a rarity for display, for example `Rare` or `Rare (R1)`.
+ * Format a rarity for display, for example `Rare` or `Rare (R2)`.
+ *
+ * The numbered codes are shown alongside the class, so a plain `Rare` means a
+ * Premiere rare and nothing else.
  *
  * @param rarity - The rarity to format.
- * @returns The rarity class, with the print group appended when there is one.
+ * @returns The rarity class, with the code appended when the code is numbered.
  */
 export function formatRarity(rarity: CardRarity): string {
-  return rarity.group === undefined ? rarity.class : `${rarity.class} (${rarity.group})`;
+  return NUMBERED_CODES.has(rarity.code) ? `${rarity.class} (${rarity.code})` : rarity.class;
 }
