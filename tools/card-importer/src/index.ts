@@ -1,12 +1,10 @@
 /**
- * Builds `packages/cards/generated/cards.json` from the committed sources in
- * `data/`.
+ * Builds `packages/cards/generated/cards.json` from `data/cards.csv`.
  *
- * The importer is strict. Anything it cannot explain is an error, not a
- * warning, because the card pool is fixed at 617 printings of 616 cards and
- * every surprise so far has turned out to be a real defect in the source data.
- * Everything comes from one corrected source file, `data/cards.csv`, so a
- * rebuild is a pure parse with nothing to patch at build time.
+ * The card pool is fixed at 617 printings of 616 cards, so the importer is
+ * strict: anything it cannot explain is an error rather than a warning. The
+ * source data is already correct, so a rebuild is a pure parse with nothing to
+ * patch at build time.
  *
  * Run with `--check` to verify the committed output matches a fresh run
  * without writing anything.

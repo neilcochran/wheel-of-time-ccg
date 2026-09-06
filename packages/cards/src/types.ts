@@ -1,14 +1,9 @@
 /**
  * Card model for the Wheel of Time CCG.
  *
- * Every vocabulary below was derived from the 617 rows in `data/csv` and
- * cross-checked against the per-set rarity lists published with the game. Each
- * one is declared as a runtime array and its type derived from that array, so
- * the importer validates against exactly the values the type permits.
- *
- * The vocabularies are closed on purpose: the game has been out of print since
- * 2002, so the card pool is fixed and any value outside these sets is a data
- * error rather than a new card.
+ * Each vocabulary is a runtime array with its type derived from that array, so
+ * the importer validates against exactly the values the type permits. The
+ * vocabularies are closed: a value outside them is a data error.
  */
 
 /** The five published card sets, in set-number order. */
@@ -256,10 +251,8 @@ export const ABILITY_TRACK_COLOURS: Readonly<Record<AbilityTrack, string>> = {
 /**
  * A card's rating in one ability track.
  *
- * Both fields are absent rather than zero when the card has no rating in that
- * track, which is the common case: only Character and Troop cards carry
- * ratings, and most of those carry ratings in only some tracks. The source data
- * contains no explicit zeroes anywhere, so a zero here would be an import bug.
+ * A field is absent rather than zero when the card has no rating in that track.
+ * The data holds no zeroes, so a zero here is an import bug.
  */
 export interface AbilityRating {
   /** Dice the card rolls in this track. Absent if it has no rating. */
@@ -313,12 +306,9 @@ export interface Card {
   /** Keywords printed on the card. Empty when the card has none. */
   readonly attributes: readonly Attribute[];
   /**
-   * Credited artist.
+   * Credited artist, present on every card.
    *
-   * Present on every card, though the field stays optional because the credit
-   * is not printed on the cards themselves and comes from external
-   * catalogues. A few cards credit two artists as a single "A and B" string,
-   * as the source does.
+   * A few cards credit two artists as a single "A and B" string.
    */
   readonly artist?: string;
   /** Rules text. Absent when the card has none. */
@@ -332,12 +322,9 @@ export interface Card {
   /** Thumbnail filename of the canonical printing, relative to `data/images/<setId>/`. */
   readonly thumbnail: string;
   /**
-   * Other printings of this same card, absent for all but a handful.
+   * Other printings of this same card.
    *
-   * Only printings the publisher catalogued separately appear here, because
-   * those are the only ones the source data distinguishes. Collector sources
-   * describe further in-run corrections that no catalogue tracked; see the
-   * project plan.
+   * Only printings the publisher catalogued separately appear here.
    */
   readonly otherPrintings?: readonly CardPrinting[];
 }

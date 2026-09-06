@@ -1,10 +1,9 @@
 /**
  * A small RFC 4180 CSV reader.
  *
- * The card CSVs contain quoted fields with embedded commas, doubled quotes and
- * newlines, so splitting on commas does not work. This is deliberately not a
- * dependency: the importer parses five known files and running it needs nothing
- * but Node.
+ * Fields may be quoted and contain commas, doubled quotes and newlines, so
+ * splitting on commas does not work. The importer has no runtime dependencies,
+ * so parsing lives here rather than in a library.
  */
 
 /** One parsed row, keyed by column header. */

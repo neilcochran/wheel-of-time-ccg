@@ -4,7 +4,7 @@ import type { CardSet, CardSetId } from './types.ts';
  * The five published card sets.
  *
  * Set numbers are the ones the printed collector numbers use, and they are the
- * first component of every card id. Card counts are asserted by the importer.
+ * first component of every card id. The importer asserts every count here.
  */
 export const CARD_SETS: readonly CardSet[] = [
   { id: 'promo', number: 0, name: 'Promo', printingCount: 11 },
@@ -14,20 +14,10 @@ export const CARD_SETS: readonly CardSet[] = [
   { id: 'cycles', number: 4, name: 'Cycles', printingCount: 4 },
 ];
 
-/**
- * Total pieces of cardboard across all five sets, and the number of card scans.
- *
- * This is the figure every official rarity list and collector checklist gives.
- */
+/** Total pieces of cardboard across all five sets, and the number of card scans. */
 export const TOTAL_PRINTING_COUNT = 617;
 
-/**
- * Total distinct cards across all five sets.
- *
- * One fewer than the printing count, because Dark Prophecies catalogued the
- * misprinted `Jarette Byar` separately from its corrected reprint `Jaret Byar`
- * and they are the same card.
- */
+/** Total distinct cards across all five sets, one fewer than the printing count. */
 export const TOTAL_CARD_COUNT = 616;
 
 /**

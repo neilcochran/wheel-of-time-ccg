@@ -1,18 +1,13 @@
 /**
- * Card rules text carries inline symbol references written between square
- * brackets. The source data spells them inconsistently: `[Combat]`,
- * `[Combat Icon]`, `[3x Combat]` and `[Combat Icon x2]` all appear, along with
- * lower-case variants. There are 43 distinct spellings.
+ * The single parser for the symbol references card text carries between square
+ * brackets, so the UI can render icons and the importer can reject a spelling
+ * it does not recognise.
  *
- * They resolve to seven symbols. Three of those the source names twice, once by
- * the game term and once by the picture on the die face. The rulebook settles
- * that they are the same thing: "The Support symbol is a sword", "The
- * Opposition symbol is a shield", "The Damage symbol is a skull". The game term
- * is the canonical form here.
+ * The source spells them inconsistently: with or without an `Icon` suffix, in
+ * either case, and with a repeat count on either side. `[Combat]`,
+ * `[Combat Icon]` and `[1x Combat]` all mean the same thing.
  *
- * The stored text stays exactly as transcribed. This module is the single
- * parser for those tokens, so the UI can render icons and the importer can
- * reject a spelling it does not recognise.
+ * The stored text stays exactly as transcribed.
  */
 
 /** The symbols that appear inline in card text. */
