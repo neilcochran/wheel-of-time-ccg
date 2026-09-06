@@ -7,11 +7,11 @@ import type { CardSet, CardSetId } from './types.ts';
  * first component of every card id. Card counts are asserted by the importer.
  */
 export const CARD_SETS: readonly CardSet[] = [
-    { id: 'promo', number: 0, name: 'Promo', printingCount: 11 },
-    { id: 'premiere', number: 1, name: 'Premiere', printingCount: 297 },
-    { id: 'dark_prophecies', number: 2, name: 'Dark Prophecies', printingCount: 151 },
-    { id: 'children_of_the_dragon', number: 3, name: 'Children of the Dragon', printingCount: 154 },
-    { id: 'cycles', number: 4, name: 'Cycles', printingCount: 4 },
+  { id: 'promo', number: 0, name: 'Promo', printingCount: 11 },
+  { id: 'premiere', number: 1, name: 'Premiere', printingCount: 297 },
+  { id: 'dark_prophecies', number: 2, name: 'Dark Prophecies', printingCount: 151 },
+  { id: 'children_of_the_dragon', number: 3, name: 'Children of the Dragon', printingCount: 154 },
+  { id: 'cycles', number: 4, name: 'Cycles', printingCount: 4 },
 ];
 
 /**
@@ -37,7 +37,7 @@ export const TOTAL_CARD_COUNT = 616;
  * @returns The set, or `undefined` if no set has that identifier.
  */
 export function getCardSet(id: CardSetId): CardSet | undefined {
-    return CARD_SETS.find((set) => set.id === id);
+  return CARD_SETS.find((set) => set.id === id);
 }
 
 /**
@@ -47,5 +47,5 @@ export function getCardSet(id: CardSetId): CardSet | undefined {
  * @returns The set, or `undefined` if no set has that number.
  */
 export function getCardSetByNumber(setNumber: number): CardSet | undefined {
-    return CARD_SETS.find((set) => set.number === setNumber);
+  return CARD_SETS.find((set) => set.number === setNumber);
 }

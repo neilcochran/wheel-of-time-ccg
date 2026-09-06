@@ -17,16 +17,16 @@ import type { CardRarity, RarityClass, RarityCode, RarityGroup } from './types.t
  * group in both sets that use groups.
  */
 const RARITY_BY_CODE: Readonly<Record<RarityCode, { class: RarityClass; group?: RarityGroup }>> = {
-    C: { class: 'Common' },
-    U: { class: 'Uncommon' },
-    U1: { class: 'Uncommon', group: 'U1' },
-    R: { class: 'Rare' },
-    R1: { class: 'Rare', group: 'R1' },
-    R2: { class: 'Rare' },
-    R3: { class: 'Rare', group: 'R3' },
-    F: { class: 'Fixed' },
-    'F/C': { class: 'Fixed/Common' },
-    P: { class: 'Promo' },
+  C: { class: 'Common' },
+  U: { class: 'Uncommon' },
+  U1: { class: 'Uncommon', group: 'U1' },
+  R: { class: 'Rare' },
+  R1: { class: 'Rare', group: 'R1' },
+  R2: { class: 'Rare' },
+  R3: { class: 'Rare', group: 'R3' },
+  F: { class: 'Fixed' },
+  'F/C': { class: 'Fixed/Common' },
+  P: { class: 'Promo' },
 };
 
 /**
@@ -36,10 +36,10 @@ const RARITY_BY_CODE: Readonly<Record<RarityCode, { class: RarityClass; group?: 
  * @returns The rarity, with `group` present only when the code names one.
  */
 export function toCardRarity(code: RarityCode): CardRarity {
-    const mapped = RARITY_BY_CODE[code];
-    return mapped.group === undefined
-        ? { code, class: mapped.class }
-        : { code, class: mapped.class, group: mapped.group };
+  const mapped = RARITY_BY_CODE[code];
+  return mapped.group === undefined
+    ? { code, class: mapped.class }
+    : { code, class: mapped.class, group: mapped.group };
 }
 
 /**
@@ -49,5 +49,5 @@ export function toCardRarity(code: RarityCode): CardRarity {
  * @returns The rarity class, with the print group appended when there is one.
  */
 export function formatRarity(rarity: CardRarity): string {
-    return rarity.group === undefined ? rarity.class : `${rarity.class} (${rarity.group})`;
+  return rarity.group === undefined ? rarity.class : `${rarity.class} (${rarity.group})`;
 }

@@ -2,17 +2,34 @@
   "name": "wheel-of-time-ccg",
   "private": true,
   "type": "module",
-  "packageManager": "pnpm@9.12.3",
+  "packageManager": "pnpm@12.1.0+sha512.d9b8276d97f6ec86e49815877f91ee9f63cee61f2063b304e43b6dab8fa07ce8a9afd46d2facd39f921e6a9d06b3c75a81349c7b888c2d22886bae0229901037",
   "engines": {
     "node": ">=24"
   },
   "scripts": {
+    "check": "pnpm typecheck && pnpm lint && pnpm format:check && pnpm test && pnpm import-cards:check",
     "typecheck": "tsc --noEmit",
+    "lint": "eslint . --max-warnings 0",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "import-cards": "node tools/card-importer/src/index.ts",
     "import-cards:check": "node tools/card-importer/src/index.ts --check"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/node": "^24.3.0",
-    "typescript": "^5.9.2"
+    "eslint": "^10.9.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-import-resolver-typescript": "^4.4.5",
+    "eslint-plugin-import-x": "^4.17.1",
+    "eslint-plugin-n": "^18.3.0",
+    "globals": "^17.11.0",
+    "prettier": "^3.9.6",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.68.0",
+    "vitest": "^4.1.11"
   }
 }
