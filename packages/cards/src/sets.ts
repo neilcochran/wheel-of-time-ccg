@@ -17,7 +17,12 @@ export const CARD_SETS: readonly CardSet[] = [
 /** Total pieces of cardboard across all five sets, and the number of card scans. */
 export const TOTAL_PRINTING_COUNT = 617;
 
-/** Total distinct cards across all five sets, one fewer than the printing count. */
+/**
+ * Total distinct cards across all five sets.
+ *
+ * One fewer than the printing count: Dark Prophecies catalogued the misprinted
+ * `Jarette Byar` separately from its corrected reprint, and they are one card.
+ */
 export const TOTAL_CARD_COUNT = 616;
 
 /**
