@@ -2,3 +2,24 @@ packages:
   - 'apps/*'
   - 'packages/*'
   - 'tools/*'
+
+# pnpm 11 restricted .npmrc to auth and registry settings, so every pnpm
+# setting below lives here rather than in an .npmrc.
+
+# Supply-chain cooldown: do not resolve onto a version published less than
+# seven days ago, giving a malicious publish time to be detected and yanked.
+# Matches the Dependabot cooldown in .github/dependabot.yml; pnpm's own default
+# is 1440, one day. Because of this, a dependency floor in package.json cannot
+# name a release younger than the window - there would be nothing to install.
+# Override a single install with `--minimum-release-age=0`.
+minimumReleaseAge: 10080
+
+# Dependency build scripts are denied unless listed here, so a compromised
+# transitive package cannot fire a postinstall hook. Every entry is a reviewed
+# decision rather than a default.
+#
+# unrs-resolver backs eslint-plugin-import-x. Its native binary arrives as a
+# platform-specific optional dependency, so the postinstall is only a fallback,
+# and import resolution works without it.
+allowBuilds:
+  unrs-resolver: false
