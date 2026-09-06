@@ -328,9 +328,10 @@ export interface Card {
     /**
      * Credited artist.
      *
-     * Comes from the per-set rarity lists, which are the only source for it.
-     * Absent for the 11 promo cards, which have no rarity list. A handful of
-     * cards credit two artists as a single "A and B" string, as the source does.
+     * Present on every card, though the field stays optional because the credit
+     * is not printed on the cards themselves and comes from external
+     * catalogues. A few cards credit two artists as a single "A and B" string,
+     * as the source does.
      */
     readonly artist?: string;
     /** Rules text. Absent when the card has none. */

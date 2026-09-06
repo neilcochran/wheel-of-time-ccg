@@ -59,13 +59,8 @@ interface MergedPrinting {
     readonly note: string;
 }
 
-/**
- * Number of distinct cards expected to carry an artist credit.
- *
- * Every card except the 11 promos, which are the one set with no rarity list:
- * 616 distinct cards less 11 is 605.
- */
-const EXPECTED_ARTIST_COUNT = 605;
+/** Every card carries an artist credit. */
+const EXPECTED_ARTIST_COUNT = TOTAL_CARD_COUNT;
 
 /** Source CSV column names, paired with the ability track they belong to. */
 const ABILITY_COLUMNS: ReadonlyArray<readonly [AbilityTrack, string]> = [
