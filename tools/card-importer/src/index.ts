@@ -35,7 +35,9 @@ import type {
   CardDatabase,
   CardPrinting,
   CardSet,
+  CardSetId,
   CardType,
+  RarityClass,
   RarityCode,
 } from '../../../packages/cards/src/index.ts';
 
@@ -356,6 +358,54 @@ function toCard(row: CsvRow, set: CardSet): Card | undefined {
   };
 }
 
+/** Slots on each set's print sheets, by set id and rarity class. */
+const PRINT_SHEETS: ReadonlyArray<readonly [CardSetId, RarityClass, number]> = [
+  ['premiere', 'Rare', 100],
+  ['premiere', 'Uncommon', 150],
+  ['premiere', 'Common', 150],
+  ['dark_prophecies', 'Rare', 100],
+  ['dark_prophecies', 'Uncommon', 100],
+  ['dark_prophecies', 'Common', 100],
+  ['children_of_the_dragon', 'Rare', 100],
+  ['children_of_the_dragon', 'Uncommon', 100],
+  ['children_of_the_dragon', 'Common', 100],
+];
+
+/**
+ * Whether a card was collated onto a given class's print sheet.
+ *
+ * Fixed/Common cards came in starter decks and in boosters as commons, so they
+ * sit on the common sheet.
+ *
+ * @param card - The card to place.
+ * @param rarityClass - The sheet being filled.
+ * @returns Whether the card belongs on that sheet.
+ */
+function onPrintSheet(card: Card, rarityClass: RarityClass): boolean {
+  if (rarityClass === 'Common') {
+    return card.rarity.class === 'Common' || card.rarity.code === 'F/C';
+  }
+  return card.rarity.class === rarityClass;
+}
+
+/**
+ * Check that each set's printings fill its print sheets exactly.
+ *
+ * A card takes as many slots as its sheet frequency, once per printing.
+ *
+ * @param printings - Every imported row, before printings are merged.
+ */
+function checkPrintSheets(printings: readonly Card[]): void {
+  for (const [setId, rarityClass, expected] of PRINT_SHEETS) {
+    const slots = printings
+      .filter((card) => card.setId === setId && onPrintSheet(card, rarityClass))
+      .reduce((total, card) => total + (card.rarity.sheetFrequency ?? 0), 0);
+    if (slots !== expected) {
+      fail(setId, `${rarityClass} print sheet holds ${slots} slots, expected ${expected}`);
+    }
+  }
+}
+
 /**
  * Import every set.
  *
@@ -437,6 +487,8 @@ function importAll(): CardDatabase {
   if (credited !== EXPECTED_ARTIST_COUNT) {
     fail('total', `expected ${EXPECTED_ARTIST_COUNT} cards with an artist, got ${credited}`);
   }
+
+  checkPrintSheets(cards);
 
   return { sets: CARD_SETS, cards: distinct };
 }

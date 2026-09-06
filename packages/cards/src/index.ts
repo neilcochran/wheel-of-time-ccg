@@ -12,7 +12,6 @@ export type {
   CardType,
   RarityClass,
   RarityCode,
-  RarityGroup,
 } from './types.ts';
 
 export {
@@ -24,7 +23,6 @@ export {
   CARD_TYPES,
   RARITY_CLASSES,
   RARITY_CODES,
-  RARITY_GROUPS,
 } from './types.ts';
 
 export {

@@ -330,7 +330,8 @@
       "type": "Event",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [],
@@ -354,7 +355,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -406,7 +408,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -430,7 +433,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -456,7 +460,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -480,7 +485,8 @@
       "type": "Event",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [],
@@ -506,7 +512,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -534,7 +541,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Player"
@@ -562,7 +570,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -601,7 +610,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "World"
@@ -693,7 +703,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Andor"
@@ -723,7 +734,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -747,7 +759,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dark One"
@@ -780,7 +793,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -804,7 +818,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -830,7 +845,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -863,7 +879,8 @@
       "type": "Character",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -895,7 +912,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -919,7 +937,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dark One"
@@ -954,7 +973,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dragon"
@@ -987,7 +1007,8 @@
       "type": "Event",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [],
@@ -1013,7 +1034,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -1069,7 +1091,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -1093,7 +1116,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -1117,7 +1141,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -1141,7 +1166,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Player"
@@ -1169,7 +1195,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "World"
@@ -1197,7 +1224,8 @@
       "type": "Troop",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Cairhien"
@@ -1230,7 +1258,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Cairhien"
@@ -1262,7 +1291,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [],
@@ -1286,7 +1316,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -1312,7 +1343,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -1336,7 +1368,8 @@
       "type": "Event",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [],
@@ -1362,7 +1395,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Mercenary"
@@ -1393,7 +1427,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -1417,7 +1452,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -1453,7 +1489,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -1477,7 +1514,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Character"
@@ -1537,7 +1575,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Character"
@@ -1565,7 +1604,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Character"
@@ -1617,7 +1657,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -1643,7 +1684,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [],
@@ -1667,7 +1709,8 @@
       "type": "Character",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Children of the Light"
@@ -1697,7 +1740,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Player"
@@ -1725,7 +1769,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Player"
@@ -1781,7 +1826,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dark One"
@@ -1813,7 +1859,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dark One"
@@ -1896,7 +1943,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -1920,7 +1968,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -1970,7 +2019,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -1994,7 +2044,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -2018,7 +2069,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dark One"
@@ -2053,7 +2105,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Player"
@@ -2081,7 +2134,8 @@
       "type": "Troop",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dragon"
@@ -2111,7 +2165,8 @@
       "type": "Event",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [],
@@ -2135,7 +2190,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -2159,7 +2215,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Children of the Light"
@@ -2196,7 +2253,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -2254,7 +2312,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Aes Sedai"
@@ -2290,7 +2349,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Aes Sedai"
@@ -2361,7 +2421,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Mercenary"
@@ -2396,7 +2457,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -2422,7 +2484,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -2446,7 +2509,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -2472,7 +2536,8 @@
       "type": "Character",
       "rarity": {
         "code": "F/C",
-        "class": "Fixed/Common"
+        "class": "Fixed/Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dark One"
@@ -2508,7 +2573,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -2532,7 +2598,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -2584,7 +2651,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -2608,7 +2676,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -2632,7 +2701,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -2656,7 +2726,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Player"
@@ -2684,7 +2755,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "World"
@@ -2712,7 +2784,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Mercenary"
@@ -2743,7 +2816,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -2767,7 +2841,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -2791,7 +2866,8 @@
       "type": "Event",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Limited"
@@ -2817,7 +2893,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Player"
@@ -2875,7 +2952,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Cairhien"
@@ -2911,7 +2989,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Andor"
@@ -2947,7 +3026,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -2997,7 +3077,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -3021,7 +3102,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -3056,7 +3138,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Children of the Light"
@@ -3090,7 +3173,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dark One"
@@ -3125,7 +3209,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dark One"
@@ -3160,7 +3245,8 @@
       "type": "Event",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [],
@@ -3184,7 +3270,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dark One"
@@ -3219,7 +3306,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -3245,7 +3333,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -3295,7 +3384,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Troop"
@@ -3323,7 +3413,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -3346,7 +3437,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -3396,7 +3488,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Character"
@@ -3426,7 +3519,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Player"
@@ -3460,7 +3554,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -3484,7 +3579,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Tear"
@@ -3515,7 +3611,8 @@
       "type": "Character",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Tear"
@@ -3546,7 +3643,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Tear"
@@ -3580,7 +3678,8 @@
       "type": "Character",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Tear"
@@ -3613,7 +3712,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Tear"
@@ -3647,7 +3747,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -3673,7 +3774,8 @@
       "type": "Character",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Tear"
@@ -3705,7 +3807,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Tear"
@@ -3737,7 +3840,8 @@
       "type": "Event",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [],
@@ -3761,7 +3865,8 @@
       "type": "Character",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Mercenary"
@@ -3791,7 +3896,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "World"
@@ -3820,7 +3926,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [
@@ -3846,7 +3953,8 @@
       "type": "Troop",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Cairhien"
@@ -3913,7 +4021,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -3937,7 +4046,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -3961,7 +4071,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -3985,7 +4096,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -4009,7 +4121,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -4035,7 +4148,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -4059,7 +4173,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -4089,7 +4204,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Character"
@@ -4119,7 +4235,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -4145,7 +4262,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -4171,7 +4289,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dark One"
@@ -4208,7 +4327,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dark One",
@@ -4245,7 +4365,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -4271,7 +4392,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Tear"
@@ -4306,7 +4428,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -4396,7 +4519,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Cairhien"
@@ -4530,7 +4654,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dark One"
@@ -4566,7 +4691,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -4590,7 +4716,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dark One",
@@ -4628,7 +4755,8 @@
       "type": "Troop",
       "rarity": {
         "code": "F/C",
-        "class": "Fixed/Common"
+        "class": "Fixed/Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Mercenary"
@@ -4661,7 +4789,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -4685,7 +4814,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -4709,7 +4839,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -4733,7 +4864,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dragon"
@@ -4767,7 +4899,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Character"
@@ -4797,7 +4930,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dark One",
@@ -4832,7 +4966,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Cairhien"
@@ -4865,7 +5000,8 @@
       "type": "Character",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Tear"
@@ -4993,7 +5129,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Cairhien"
@@ -5089,7 +5226,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dragon"
@@ -5125,7 +5263,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Cairhien"
@@ -5160,7 +5299,8 @@
       "type": "Event",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [],
@@ -5184,7 +5324,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Troop"
@@ -5248,7 +5389,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dragon"
@@ -5282,7 +5424,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dragon"
@@ -5314,7 +5457,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -5338,7 +5482,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dark One"
@@ -5411,7 +5556,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -5437,7 +5583,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Andor"
@@ -5471,7 +5618,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Character"
@@ -5497,7 +5645,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "World"
@@ -5525,7 +5674,8 @@
       "type": "Character",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dark One"
@@ -5558,7 +5708,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -5582,7 +5733,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [],
@@ -5606,7 +5758,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Aes Sedai"
@@ -5693,7 +5846,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Children of the Light"
@@ -5725,7 +5879,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Children of the Light"
@@ -5846,7 +6001,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -5870,7 +6026,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -5894,7 +6051,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [],
@@ -5918,7 +6076,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -5944,7 +6103,8 @@
       "type": "Event",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [],
@@ -5968,7 +6128,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -5994,7 +6155,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [],
@@ -6018,7 +6180,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -6044,7 +6207,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -6066,7 +6230,8 @@
       "type": "Troop",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Andor"
@@ -6132,7 +6297,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -6168,7 +6334,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -6216,7 +6383,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dragon"
@@ -6252,7 +6420,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dragon"
@@ -6286,7 +6455,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dragon"
@@ -6360,7 +6530,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dragon"
@@ -6394,7 +6565,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -6418,7 +6590,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -6442,7 +6615,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Player"
@@ -6470,7 +6644,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Player"
@@ -6500,7 +6675,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -6526,7 +6702,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -6552,7 +6729,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -6578,7 +6756,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -6604,7 +6783,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -6628,7 +6808,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -6652,7 +6833,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -6678,7 +6860,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -6708,7 +6891,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Aiel"
@@ -6744,7 +6928,8 @@
       "type": "Event",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [],
@@ -6772,7 +6957,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -6796,7 +6982,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -6822,7 +7009,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Character"
@@ -6850,7 +7038,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Character"
@@ -6878,7 +7067,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -6910,7 +7100,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -6934,7 +7125,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "F/C",
-        "class": "Fixed/Common"
+        "class": "Fixed/Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -6962,7 +7154,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Player"
@@ -6988,7 +7181,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -7036,7 +7230,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -7060,7 +7255,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Mercenary"
@@ -7091,7 +7287,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dark One"
@@ -7130,7 +7327,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -7154,7 +7352,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "World"
@@ -7206,7 +7405,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Aes Sedai"
@@ -7243,7 +7443,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -7267,7 +7468,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -7317,7 +7519,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [],
@@ -7341,7 +7544,8 @@
       "type": "Event",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [
@@ -7367,7 +7571,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -7419,7 +7624,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -7449,7 +7655,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Troop"
@@ -7477,7 +7684,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -7503,7 +7711,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -7531,7 +7740,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Player"
@@ -7563,7 +7773,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "World"
@@ -7591,7 +7802,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aes Sedai"
@@ -7624,7 +7836,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aes Sedai"
@@ -7658,7 +7871,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "World"
@@ -7686,7 +7900,8 @@
       "type": "Troop",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Tear"
@@ -7719,7 +7934,8 @@
       "type": "Troop",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Tear"
@@ -7751,7 +7967,8 @@
       "type": "Troop",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Tear"
@@ -7784,7 +8001,8 @@
       "type": "Troop",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Tear"
@@ -7839,7 +8057,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -7865,7 +8084,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dragon"
@@ -7899,7 +8119,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [
@@ -7925,7 +8146,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Player"
@@ -7953,7 +8175,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Character"
@@ -7982,7 +8205,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Player"
@@ -8008,7 +8232,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -8058,7 +8283,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -8084,7 +8310,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -8110,7 +8337,8 @@
       "type": "Event",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [],
@@ -8134,7 +8362,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Player"
@@ -8160,7 +8389,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dragon"
@@ -8196,7 +8426,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -8224,7 +8455,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Player"
@@ -8254,7 +8486,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Troop"
@@ -8280,7 +8513,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -8335,7 +8569,8 @@
       "type": "Troop",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dark One"
@@ -8398,7 +8633,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Character"
@@ -8426,7 +8662,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dark One"
@@ -8459,7 +8696,8 @@
       "type": "Troop",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dark One"
@@ -8493,7 +8731,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [],
@@ -8517,7 +8756,8 @@
       "type": "Event",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [],
@@ -8541,7 +8781,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Andor"
@@ -8597,7 +8838,8 @@
       "type": "Character",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Aes Sedai"
@@ -8634,7 +8876,8 @@
       "type": "Event",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [],
@@ -8658,7 +8901,8 @@
       "type": "Character",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Mercenary"
@@ -8688,7 +8932,8 @@
       "type": "Event",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [],
@@ -8712,7 +8957,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -8736,7 +8982,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -8762,7 +9009,8 @@
       "type": "Event",
       "rarity": {
         "code": "R",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 1
       },
       "allegiances": [],
       "attributes": [],
@@ -8786,7 +9034,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -8810,7 +9059,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Mercenary"
@@ -8843,7 +9093,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -8872,7 +9123,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -8896,7 +9148,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aes Sedai"
@@ -8935,7 +9188,7 @@
       "rarity": {
         "code": "R1",
         "class": "Rare",
-        "group": "R1"
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dragon"
@@ -8966,7 +9219,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -9004,7 +9258,7 @@
       "rarity": {
         "code": "R3",
         "class": "Rare",
-        "group": "R3"
+        "sheetFrequency": 3
       },
       "allegiances": [],
       "attributes": [],
@@ -9030,7 +9284,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -9056,7 +9311,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Illian"
@@ -9094,7 +9350,7 @@
       "rarity": {
         "code": "R1",
         "class": "Rare",
-        "group": "R1"
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dark One"
@@ -9129,7 +9385,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Illian"
@@ -9163,7 +9420,7 @@
       "rarity": {
         "code": "R3",
         "class": "Rare",
-        "group": "R3"
+        "sheetFrequency": 3
       },
       "allegiances": [
         "Player"
@@ -9191,7 +9448,8 @@
       "type": "Troop",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Cairhien"
@@ -9224,7 +9482,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Cairhien"
@@ -9255,7 +9514,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Cairhien"
@@ -9289,7 +9549,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -9315,7 +9576,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aes Sedai"
@@ -9351,7 +9613,8 @@
       "type": "Character",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Children of the Light"
@@ -9384,7 +9647,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -9410,7 +9674,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -9436,7 +9701,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [
@@ -9465,7 +9731,7 @@
       "rarity": {
         "code": "R3",
         "class": "Rare",
-        "group": "R3"
+        "sheetFrequency": 3
       },
       "allegiances": [],
       "attributes": [],
@@ -9489,7 +9755,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [
@@ -9515,7 +9782,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -9552,7 +9820,7 @@
       "rarity": {
         "code": "R3",
         "class": "Rare",
-        "group": "R3"
+        "sheetFrequency": 3
       },
       "allegiances": [],
       "attributes": [],
@@ -9576,7 +9844,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [
@@ -9602,7 +9871,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Tear"
@@ -9634,7 +9904,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -9660,7 +9931,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -9684,7 +9956,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aes Sedai",
@@ -9722,7 +9995,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dark One"
@@ -9758,7 +10032,7 @@
       "rarity": {
         "code": "R1",
         "class": "Rare",
-        "group": "R1"
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dragon"
@@ -9797,7 +10071,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -9829,7 +10104,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dragon"
@@ -9863,7 +10139,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Andor"
@@ -9897,7 +10174,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Andor"
@@ -9934,7 +10212,7 @@
       "rarity": {
         "code": "R3",
         "class": "Rare",
-        "group": "R3"
+        "sheetFrequency": 3
       },
       "allegiances": [],
       "attributes": [],
@@ -9958,7 +10236,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -9985,7 +10264,7 @@
       "rarity": {
         "code": "R1",
         "class": "Rare",
-        "group": "R1"
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dark One"
@@ -10020,7 +10299,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -10046,7 +10326,8 @@
       "type": "Troop",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Children of the Light"
@@ -10078,7 +10359,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -10104,7 +10386,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Tear"
@@ -10136,7 +10419,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Tear"
@@ -10168,7 +10452,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Mercenary"
@@ -10200,7 +10485,8 @@
       "type": "Troop",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -10231,7 +10517,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "World"
@@ -10259,7 +10546,8 @@
       "type": "Troop",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Illian"
@@ -10292,7 +10580,8 @@
       "type": "Troop",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Illian"
@@ -10323,7 +10612,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Illian"
@@ -10355,7 +10645,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Illian"
@@ -10385,7 +10676,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -10412,7 +10704,7 @@
       "rarity": {
         "code": "R3",
         "class": "Rare",
-        "group": "R3"
+        "sheetFrequency": 3
       },
       "allegiances": [],
       "attributes": [],
@@ -10437,7 +10729,7 @@
       "rarity": {
         "code": "R1",
         "class": "Rare",
-        "group": "R1"
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dark One"
@@ -10475,7 +10767,7 @@
       "rarity": {
         "code": "U1",
         "class": "Uncommon",
-        "group": "U1"
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Children of the Light"
@@ -10512,7 +10804,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dragon"
@@ -10543,7 +10836,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Illian"
@@ -10580,7 +10874,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Cairhien"
@@ -10609,7 +10904,7 @@
       "rarity": {
         "code": "R1",
         "class": "Rare",
-        "group": "R1"
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dark One"
@@ -10645,7 +10940,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -10669,7 +10965,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -10695,7 +10992,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aes Sedai"
@@ -10733,7 +11031,8 @@
       "type": "Troop",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Children of the Light"
@@ -10767,7 +11066,7 @@
       "rarity": {
         "code": "R3",
         "class": "Rare",
-        "group": "R3"
+        "sheetFrequency": 3
       },
       "allegiances": [
         "Dragon"
@@ -10798,7 +11097,8 @@
       "type": "Troop",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Children of the Light"
@@ -10830,7 +11130,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -10856,7 +11157,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Illian"
@@ -10889,7 +11191,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Illian"
@@ -10920,7 +11223,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -10946,7 +11250,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Andor"
@@ -10981,7 +11286,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Cairhien"
@@ -11018,7 +11324,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dragon"
@@ -11052,7 +11359,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Illian"
@@ -11089,7 +11397,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Illian"
@@ -11122,7 +11431,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Illian"
@@ -11158,7 +11468,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Illian"
@@ -11192,7 +11503,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Illian"
@@ -11225,7 +11537,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Cairhien"
@@ -11257,7 +11570,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Illian"
@@ -11294,7 +11608,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -11318,7 +11633,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dragon"
@@ -11350,7 +11666,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -11383,7 +11700,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -11410,7 +11728,7 @@
       "rarity": {
         "code": "R1",
         "class": "Rare",
-        "group": "R1"
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dark One"
@@ -11446,7 +11764,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [
@@ -11472,7 +11791,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -11496,7 +11816,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -11522,7 +11843,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Mercenary"
@@ -11554,7 +11876,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -11578,7 +11901,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -11604,7 +11928,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dragon"
@@ -11632,7 +11957,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -11656,7 +11982,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -11680,7 +12007,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Troop"
@@ -11708,7 +12036,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -11734,7 +12063,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Children of the Light"
@@ -11768,7 +12098,7 @@
       "rarity": {
         "code": "R1",
         "class": "Rare",
-        "group": "R1"
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dark One"
@@ -11803,7 +12133,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dragon"
@@ -11837,7 +12168,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dragon"
@@ -11873,7 +12205,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dragon"
@@ -11911,7 +12244,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Children of the Light"
@@ -11945,7 +12279,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -11970,7 +12305,7 @@
       "rarity": {
         "code": "R3",
         "class": "Rare",
-        "group": "R3"
+        "sheetFrequency": 3
       },
       "allegiances": [
         "Mercenary"
@@ -12002,7 +12337,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dark One"
@@ -12037,7 +12373,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Children of the Light"
@@ -12070,7 +12407,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dragon"
@@ -12103,7 +12441,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -12127,7 +12466,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -12153,7 +12493,8 @@
       "type": "Event",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -12177,7 +12518,8 @@
       "type": "Character",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Mercenary"
@@ -12208,7 +12550,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -12234,7 +12577,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -12258,7 +12602,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -12282,7 +12627,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -12306,7 +12652,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -12340,7 +12687,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -12366,7 +12714,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Tear"
@@ -12397,7 +12746,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -12425,7 +12775,8 @@
       "type": "Troop",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Illian"
@@ -12458,7 +12809,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -12482,7 +12834,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -12508,7 +12861,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -12536,7 +12890,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -12562,7 +12917,8 @@
       "type": "Troop",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dragon"
@@ -12590,7 +12946,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -12616,7 +12973,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -12642,7 +13000,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -12668,7 +13027,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -12694,7 +13054,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -12722,7 +13083,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -12746,7 +13108,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -12772,7 +13135,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dragon"
@@ -12806,7 +13170,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "World"
@@ -12834,7 +13199,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -12862,7 +13228,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -12890,7 +13257,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -12916,7 +13284,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -12942,7 +13311,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -12968,7 +13338,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aes Sedai"
@@ -12999,7 +13370,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dragon"
@@ -13030,7 +13402,8 @@
       "type": "Troop",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dark One"
@@ -13061,7 +13434,8 @@
       "type": "Troop",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dark One"
@@ -13092,7 +13466,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -13120,7 +13495,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -13146,7 +13522,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -13172,7 +13549,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -13196,7 +13574,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -13225,7 +13604,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aes Sedai"
@@ -13258,7 +13638,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Andor"
@@ -13290,7 +13671,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Children of the Light"
@@ -13319,7 +13701,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dragon"
@@ -13353,7 +13736,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -13380,7 +13764,7 @@
       "rarity": {
         "code": "R1",
         "class": "Rare",
-        "group": "R1"
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Aes Sedai"
@@ -13415,7 +13799,8 @@
       "type": "Troop",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -13446,7 +13831,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -13483,7 +13869,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -13507,7 +13894,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Mercenary"
@@ -13540,7 +13928,8 @@
       "type": "Troop",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Andor"
@@ -13569,7 +13958,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dragon"
@@ -13600,7 +13990,8 @@
       "type": "Troop",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Children of the Light"
@@ -13634,7 +14025,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -13662,7 +14054,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -13698,7 +14091,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -13724,7 +14118,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -13759,7 +14154,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dark One"
@@ -13794,7 +14190,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -13824,7 +14221,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -13863,7 +14261,7 @@
       "rarity": {
         "code": "R1",
         "class": "Rare",
-        "group": "R1"
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Aes Sedai"
@@ -13899,7 +14297,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -13934,7 +14333,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -13960,7 +14360,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -13986,7 +14387,8 @@
       "type": "Troop",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Cairhien"
@@ -14017,7 +14419,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -14041,7 +14444,8 @@
       "type": "Event",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -14065,7 +14469,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -14093,7 +14498,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -14131,7 +14537,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -14160,7 +14567,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -14188,7 +14596,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -14216,7 +14625,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -14245,7 +14655,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -14283,7 +14694,8 @@
       "type": "Troop",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dark One"
@@ -14316,7 +14728,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -14341,7 +14754,7 @@
       "rarity": {
         "code": "R1",
         "class": "Rare",
-        "group": "R1"
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Aiel"
@@ -14376,7 +14789,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Mercenary"
@@ -14408,7 +14822,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -14434,7 +14849,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -14459,7 +14875,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Illian"
@@ -14495,7 +14912,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -14527,7 +14945,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -14551,7 +14970,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -14584,7 +15004,8 @@
       "type": "Event",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -14608,7 +15029,8 @@
       "type": "Event",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -14632,7 +15054,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -14656,7 +15079,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -14694,7 +15118,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -14726,7 +15151,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -14759,7 +15185,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -14783,7 +15210,8 @@
       "type": "Troop",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dragon"
@@ -14816,7 +15244,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -14842,7 +15271,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dark One"
@@ -14872,7 +15302,8 @@
       "type": "Troop",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dragon"
@@ -14905,7 +15336,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -14933,7 +15365,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -14962,7 +15395,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Mercenary"
@@ -14996,7 +15430,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -15024,7 +15459,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -15057,7 +15493,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -15085,7 +15522,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -15113,7 +15551,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dragon"
@@ -15143,7 +15582,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Tear"
@@ -15175,7 +15615,8 @@
       "type": "Troop",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Illian"
@@ -15208,7 +15649,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -15232,7 +15674,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -15267,7 +15710,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Mercenary"
@@ -15299,7 +15743,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -15334,7 +15779,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -15367,7 +15813,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -15395,7 +15842,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -15429,7 +15877,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -15455,7 +15904,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Cairhien"
@@ -15487,7 +15937,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -15515,7 +15966,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -15543,7 +15995,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -15578,7 +16031,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -15611,7 +16065,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -15639,7 +16094,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -15665,7 +16121,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Illian"
@@ -15702,7 +16159,7 @@
       "rarity": {
         "code": "R1",
         "class": "Rare",
-        "group": "R1"
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dragon"
@@ -15734,7 +16191,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -15758,7 +16216,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -15786,7 +16245,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -15818,7 +16278,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -15844,7 +16305,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -15877,7 +16339,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -15909,7 +16372,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -15935,7 +16399,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Andor"
@@ -15970,7 +16435,7 @@
       "rarity": {
         "code": "R1",
         "class": "Rare",
-        "group": "R1"
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dragon"
@@ -16005,7 +16470,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -16043,7 +16509,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -16082,7 +16549,8 @@
       "type": "Troop",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -16116,7 +16584,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -16145,7 +16614,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -16169,7 +16639,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -16205,7 +16676,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -16234,7 +16706,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -16271,7 +16744,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -16295,7 +16769,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -16319,7 +16794,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dark One"
@@ -16355,7 +16831,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Children of the Light"
@@ -16387,7 +16864,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -16413,7 +16891,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -16438,7 +16917,7 @@
       "rarity": {
         "code": "R1",
         "class": "Rare",
-        "group": "R1"
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dragon"
@@ -16475,7 +16954,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dragon"
@@ -16512,7 +16992,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dragon"
@@ -16546,7 +17027,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dragon"
@@ -16584,7 +17066,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -16608,7 +17091,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -16636,7 +17120,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -16665,7 +17150,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -16703,7 +17189,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -16730,7 +17217,7 @@
       "rarity": {
         "code": "R1",
         "class": "Rare",
-        "group": "R1"
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dark One"
@@ -16767,7 +17254,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -16803,7 +17291,8 @@
       "type": "Character",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -16834,7 +17323,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -16871,7 +17361,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -16900,7 +17391,8 @@
       "type": "Troop",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -16931,7 +17423,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -16960,7 +17453,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -16986,7 +17480,8 @@
       "type": "Troop",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -17018,7 +17513,8 @@
       "type": "Troop",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dragon"
@@ -17051,7 +17547,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -17090,7 +17587,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -17128,7 +17626,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -17152,7 +17651,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -17180,7 +17680,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -17212,7 +17713,7 @@
       "rarity": {
         "code": "R1",
         "class": "Rare",
-        "group": "R1"
+        "sheetFrequency": 1
       },
       "allegiances": [
         "Dragon"
@@ -17243,7 +17744,8 @@
       "type": "Event",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -17271,7 +17773,8 @@
       "type": "Troop",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Tear"
@@ -17303,7 +17806,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -17329,7 +17833,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -17357,7 +17862,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -17383,7 +17889,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -17409,7 +17916,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -17433,7 +17941,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "World"
@@ -17459,7 +17968,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "World"
@@ -17487,7 +17997,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -17511,7 +18022,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Player"
@@ -17539,7 +18051,8 @@
       "type": "Event",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -17563,7 +18076,8 @@
       "type": "Event",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -17587,7 +18101,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -17623,7 +18138,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -17647,7 +18163,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -17682,7 +18199,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -17719,7 +18237,8 @@
       "type": "Event",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Limited"
@@ -17745,7 +18264,8 @@
       "type": "Troop",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -17774,7 +18294,8 @@
       "type": "Troop",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dark One"
@@ -17805,7 +18326,8 @@
       "type": "Character",
       "rarity": {
         "code": "R2",
-        "class": "Rare"
+        "class": "Rare",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Dark One"
@@ -17839,7 +18361,8 @@
       "type": "Character",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Aiel"
@@ -17871,7 +18394,8 @@
       "type": "Advantage",
       "rarity": {
         "code": "U",
-        "class": "Uncommon"
+        "class": "Uncommon",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Character"
@@ -17897,7 +18421,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -17921,7 +18446,8 @@
       "type": "Troop",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Illian"
@@ -17952,7 +18478,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -17976,7 +18503,8 @@
       "type": "Challenge",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [],
       "attributes": [],
@@ -18000,7 +18528,8 @@
       "type": "Character",
       "rarity": {
         "code": "C",
-        "class": "Common"
+        "class": "Common",
+        "sheetFrequency": 2
       },
       "allegiances": [
         "Mercenary"
