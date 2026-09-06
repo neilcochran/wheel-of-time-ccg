@@ -1,0 +1,18 @@
+{
+  "name": "wheel-of-time-ccg",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@9.12.3",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "import-cards": "node tools/card-importer/src/index.ts",
+    "import-cards:check": "node tools/card-importer/src/index.ts --check"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  }
+}

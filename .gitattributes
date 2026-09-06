@@ -1,0 +1,8 @@
+# Check out text files with LF on every platform. The importer writes its
+# generated JSON with LF and compares it byte for byte, so a CRLF checkout
+# would make `pnpm import-cards:check` fail on a fresh clone under Windows.
+* text=auto eol=lf
+
+*.jpg binary
+*.png binary
+*.pdf binary

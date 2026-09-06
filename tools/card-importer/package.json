@@ -1,0 +1,10 @@
+{
+  "name": "@wot/card-importer",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.ts",
+    "check": "node src/index.ts --check"
+  }
+}
