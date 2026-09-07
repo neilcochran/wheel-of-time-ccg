@@ -88,7 +88,11 @@ that a deck builder would happily let you play six copies of.
 ## Card data and images
 
 The card text was transcribed by hobbyists from the printed cards; the scans
-were made from the same product. Both are reproduced here to preserve a game
+were made from the same product. The prose stands as they transcribed it,
+including its typos. The one thing normalised is the notation for the ability
+symbols printed on the cards, which the transcribers spelled forty-three
+different ways: each is now the symbol name in square brackets, repeated once
+per printed glyph. Both text and scans are reproduced here to preserve a game
 that has been out of print for over twenty years and is not sold by anyone
 today. This is archival intent, not a claim that the underlying work is free of
 copyright. The publisher no longer exists.
