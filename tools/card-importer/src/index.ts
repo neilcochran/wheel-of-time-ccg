@@ -14,6 +14,7 @@ import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync } from 
 import { join, dirname } from 'node:path';
 
 import {
+  ABILITY_TRACKS,
   ALLEGIANCES,
   CARD_SETS,
   CARD_SUBTYPES,
@@ -66,14 +67,6 @@ interface MergedPrinting {
 
 /** Every card carries an artist credit. */
 const EXPECTED_ARTIST_COUNT = TOTAL_CARD_COUNT;
-
-/** Source CSV column names, paired with the ability track they belong to. */
-const ABILITY_COLUMNS: ReadonlyArray<readonly [AbilityTrack, string]> = [
-  ['politics', 'politics'],
-  ['intrigue', 'intrigue'],
-  ['onePower', 'one_power'],
-  ['combat', 'combat'],
-];
 
 /** Collected failures, reported together so one run surfaces every problem. */
 const errors: string[] = [];
@@ -216,23 +209,23 @@ function splitList(raw: string): string[] {
  * no explicit zeroes, so a blank means the card has no rating in that track.
  *
  * @param row - The source row.
- * @param column - The column prefix, for example `One Power`.
+ * @param track - The ability track, which is also the column prefix.
  * @param where - Card identifier used in error messages.
  * @returns The rating, with fields omitted where the source is blank.
  */
-function readAbility(row: CsvRow, column: string, where: string): AbilityRating {
+function readAbility(row: CsvRow, track: AbilityTrack, where: string): AbilityRating {
   function readCell(suffix: string): number | undefined {
-    const raw = (row[`${column}_${suffix}`] ?? '').trim();
+    const raw = (row[`${track}_${suffix}`] ?? '').trim();
     if (raw === '') {
       return undefined;
     }
     if (!/^\d+$/.test(raw)) {
-      fail(where, `${column}_${suffix} is not a number: ${JSON.stringify(raw)}`);
+      fail(where, `${track}_${suffix} is not a number: ${JSON.stringify(raw)}`);
       return undefined;
     }
     const value = Number.parseInt(raw, 10);
     if (value === 0) {
-      fail(where, `${column}_${suffix} is an explicit zero, which the source data never uses`);
+      fail(where, `${track}_${suffix} is an explicit zero, which the source data never uses`);
     }
     return value;
   }
@@ -342,8 +335,8 @@ function toCard(row: CsvRow, set: CardSet): Card | undefined {
     onePower: {},
     combat: {},
   };
-  for (const [track, column] of ABILITY_COLUMNS) {
-    abilities[track] = readAbility(row, column, id);
+  for (const track of ABILITY_TRACKS) {
+    abilities[track] = readAbility(row, track, id);
   }
 
   const artist = (row['artist'] ?? '').trim();
