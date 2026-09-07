@@ -69,7 +69,8 @@ pnpm import-cards
 ```
 
 It validates as it goes and fails on any surprise: an unknown card type,
-rarity, allegiance, attribute or inline symbol; an ability rating of zero, which
+sub-type, rarity, allegiance, attribute or inline symbol; a sub-type on a card
+type that cannot carry it; an ability rating of zero, which
 the source data never uses; a card with no image, or an image with no card; a
 duplicate card id; or a total that is not exactly 617 printings of 616 cards.
 

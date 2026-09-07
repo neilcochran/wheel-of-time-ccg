@@ -17,8 +17,10 @@ import {
   ALLEGIANCES,
   ATTRIBUTES,
   CARD_SETS,
+  CARD_SUBTYPES,
   CARD_TYPES,
   RARITY_CODES,
+  SUBTYPES_BY_CARD_TYPE,
   TOTAL_CARD_COUNT,
   TOTAL_PRINTING_COUNT,
   findUnknownSymbolTokens,
@@ -34,6 +36,7 @@ import type {
   CardPrinting,
   CardSet,
   CardSetId,
+  CardSubtype,
   CardType,
   RarityClass,
   RarityCode,
@@ -291,6 +294,17 @@ function toCard(row: CsvRow, set: CardSet): Card | undefined {
     fail(id, `unknown rarity ${JSON.stringify(rawRarity)}`);
   }
 
+  const rawSubtype = (row['subtype'] ?? '').trim();
+  let subtype: CardSubtype | undefined;
+  if (rawSubtype !== '') {
+    subtype = CARD_SUBTYPES.find((value) => value === rawSubtype);
+    if (subtype === undefined) {
+      fail(id, `unknown subtype ${JSON.stringify(rawSubtype)}`);
+    } else if (type !== undefined && !(SUBTYPES_BY_CARD_TYPE[type] ?? []).includes(subtype)) {
+      fail(id, `${type} may not have subtype ${JSON.stringify(rawSubtype)}`);
+    }
+  }
+
   const allegiances: Allegiance[] = [];
   for (const value of splitList(row['allegiances'] ?? '')) {
     const match = ALLEGIANCES.find((known) => known === value);
@@ -344,6 +358,7 @@ function toCard(row: CsvRow, set: CardSet): Card | undefined {
     collectorNumber,
     name,
     type,
+    ...(subtype === undefined ? {} : { subtype }),
     rarity: toCardRarity(rarityCode),
     allegiances,
     attributes,

@@ -9,6 +9,7 @@ export type {
   CardRarity,
   CardSet,
   CardSetId,
+  CardSubtype,
   CardType,
   RarityClass,
   RarityCode,
@@ -20,9 +21,11 @@ export {
   ALLEGIANCES,
   ATTRIBUTES,
   CARD_SET_IDS,
+  CARD_SUBTYPES,
   CARD_TYPES,
   RARITY_CLASSES,
   RARITY_CODES,
+  SUBTYPES_BY_CARD_TYPE,
 } from './types.ts';
 
 export {

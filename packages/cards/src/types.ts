@@ -89,32 +89,49 @@ export interface CardRarity {
 }
 
 /**
- * Allegiances, called subtypes in the source data.
+ * Allegiances, printed after the type on characters and troops.
  *
  * An allegiance determines which faction a card belongs to, and therefore what
  * can recruit it. A card may have several, or none.
+ *
+ * `Precedence` belongs to a single promo card that names the publisher as its
+ * faction.
  */
 export const ALLEGIANCES = [
   'Aes Sedai',
   'Aiel',
   'Andor',
   'Cairhien',
-  'Character',
   'Children of the Light',
   'Dark One',
   'Dragon',
   'Illian',
-  'Limited',
   'Mercenary',
-  'Player',
   'Precedence',
   'Tear',
-  'Troop',
-  'World',
 ] as const;
 
 /** A faction a card belongs to. */
 export type Allegiance = (typeof ALLEGIANCES)[number];
+
+/**
+ * Sub-types, printed after the type in the same place an allegiance would be.
+ *
+ * A sub-type narrows what a card acts on. `Character`, `Player`, `Troop` and
+ * `World` say what an advantage targets; `Limited` marks an event that may only
+ * be played during the Take Actions step. No other type carries one, and an
+ * advantage that can target either a character or a troop carries none.
+ */
+export const CARD_SUBTYPES = ['Character', 'Limited', 'Player', 'Troop', 'World'] as const;
+
+/** A sub-type narrowing what a card acts on. */
+export type CardSubtype = (typeof CARD_SUBTYPES)[number];
+
+/** The sub-types each card type may carry. Types absent here carry none. */
+export const SUBTYPES_BY_CARD_TYPE: Readonly<Partial<Record<CardType, readonly CardSubtype[]>>> = {
+  Advantage: ['Character', 'Player', 'Troop', 'World'],
+  Event: ['Limited'],
+};
 
 /**
  * Keywords printed on cards.
@@ -299,6 +316,8 @@ export interface Card {
   readonly name: string;
   /** The card's type. */
   readonly type: CardType;
+  /** What the card acts on, absent on the types that carry no sub-type. */
+  readonly subtype?: CardSubtype;
   /** How the card was distributed. */
   readonly rarity: CardRarity;
   /** Factions the card belongs to. Empty when the card has none. */
