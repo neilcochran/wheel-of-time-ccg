@@ -134,13 +134,13 @@ export const SUBTYPES_BY_CARD_TYPE: Readonly<Partial<Record<CardType, readonly C
 };
 
 /**
- * Keywords printed on cards.
+ * Traits, printed in bold above a card's rules text.
  *
- * Attributes are referenced by other cards' rules text, so the rules engine
- * will match on these values directly. That is why they are a closed union and
- * not free-form strings.
+ * Traits are referenced by other cards' rules text, so the rules engine will
+ * match on these values directly. That is why they are a closed union and not
+ * free-form strings.
  */
-export const ATTRIBUTES = [
+export const TRAITS = [
   'Accepted',
   'Aiel',
   'Band of the Red Hand',
@@ -243,8 +243,8 @@ export const ATTRIBUTES = [
   'Yellow Ajah',
 ] as const;
 
-/** A keyword printed on a card. */
-export type Attribute = (typeof ATTRIBUTES)[number];
+/** A trait printed on a card. */
+export type Trait = (typeof TRAITS)[number];
 
 /** The four ability tracks, in the order the cards print them. */
 export const ABILITY_TRACKS = ['politics', 'intrigue', 'onePower', 'combat'] as const;
@@ -322,8 +322,8 @@ export interface Card {
   readonly rarity: CardRarity;
   /** Factions the card belongs to. Empty when the card has none. */
   readonly allegiances: readonly Allegiance[];
-  /** Keywords printed on the card. Empty when the card has none. */
-  readonly attributes: readonly Attribute[];
+  /** Traits printed on the card. Empty when the card has none. */
+  readonly traits: readonly Trait[];
   /**
    * Credited artist, present on every card.
    *

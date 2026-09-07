@@ -15,7 +15,6 @@ import { join, dirname } from 'node:path';
 
 import {
   ALLEGIANCES,
-  ATTRIBUTES,
   CARD_SETS,
   CARD_SUBTYPES,
   CARD_TYPES,
@@ -23,6 +22,7 @@ import {
   SUBTYPES_BY_CARD_TYPE,
   TOTAL_CARD_COUNT,
   TOTAL_PRINTING_COUNT,
+  TRAITS,
   findUnknownSymbolTokens,
   toCardRarity,
 } from '../../../packages/cards/src/index.ts';
@@ -30,7 +30,6 @@ import type {
   AbilityRating,
   AbilityTrack,
   Allegiance,
-  Attribute,
   Card,
   CardDatabase,
   CardPrinting,
@@ -40,6 +39,7 @@ import type {
   CardType,
   RarityClass,
   RarityCode,
+  Trait,
 } from '../../../packages/cards/src/index.ts';
 
 import { parseCsv } from './csv.ts';
@@ -315,14 +315,14 @@ function toCard(row: CsvRow, set: CardSet): Card | undefined {
     allegiances.push(match);
   }
 
-  const attributes: Attribute[] = [];
-  for (const value of splitList(row['attributes'] ?? '')) {
-    const match = ATTRIBUTES.find((known) => known === value);
+  const traits: Trait[] = [];
+  for (const value of splitList(row['traits'] ?? '')) {
+    const match = TRAITS.find((known) => known === value);
     if (match === undefined) {
-      fail(id, `unknown attribute ${JSON.stringify(value)}`);
+      fail(id, `unknown trait ${JSON.stringify(value)}`);
       continue;
     }
-    attributes.push(match);
+    traits.push(match);
   }
 
   const effect = (row['effect'] ?? '').trim();
@@ -361,7 +361,7 @@ function toCard(row: CsvRow, set: CardSet): Card | undefined {
     ...(subtype === undefined ? {} : { subtype }),
     rarity: toCardRarity(rarityCode),
     allegiances,
-    attributes,
+    traits,
     ...(artist === '' ? {} : { artist }),
     ...(effect === '' ? {} : { effect }),
     ...(lore === '' ? {} : { lore }),

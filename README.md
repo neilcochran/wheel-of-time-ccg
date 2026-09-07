@@ -69,10 +69,10 @@ pnpm import-cards
 ```
 
 It validates as it goes and fails on any surprise: an unknown card type,
-sub-type, rarity, allegiance, attribute or inline symbol; a sub-type on a card
-type that cannot carry it; an ability rating of zero, which
-the source data never uses; a card with no image, or an image with no card; a
-duplicate card id; or a total that is not exactly 617 printings of 616 cards.
+sub-type, rarity, allegiance, trait or inline symbol; a sub-type on a card type
+that cannot carry it; an ability rating of zero, which the source data never
+uses; a card with no image, or an image with no card; a duplicate card id; or a
+total that is not exactly 617 printings of 616 cards.
 
 A rebuild is a pure parse of a single file. `data/cards.csv` holds everything: card text, artist credits, and the one relationship
 between rows that the publisher's own catalogue created.
