@@ -2,27 +2,30 @@ export type {
   AbilityRating,
   AbilityTrack,
   Allegiance,
-  Attribute,
   Card,
   CardDatabase,
   CardPrinting,
   CardRarity,
   CardSet,
   CardSetId,
+  CardSubtype,
   CardType,
   RarityClass,
   RarityCode,
+  Trait,
 } from './types.ts';
 
 export {
   ABILITY_TRACKS,
   ABILITY_TRACK_COLOURS,
   ALLEGIANCES,
-  ATTRIBUTES,
   CARD_SET_IDS,
+  CARD_SUBTYPES,
   CARD_TYPES,
   RARITY_CLASSES,
   RARITY_CODES,
+  SUBTYPES_BY_CARD_TYPE,
+  TRAITS,
 } from './types.ts';
 
 export {
