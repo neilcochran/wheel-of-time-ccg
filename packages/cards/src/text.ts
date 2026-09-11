@@ -8,7 +8,7 @@
  * what the printing does: `[combat][combat][combat]`.
  *
  * The symbol notation is normalised in the stored text. The prose around it
- * stays exactly as transcribed.
+ * matches the printed card, misprints included.
  */
 
 /** The symbols that appear inline in card text. */
