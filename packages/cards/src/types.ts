@@ -91,6 +91,10 @@ export interface CardRarity {
 /**
  * Allegiances, printed after the type on characters and troops.
  *
+ * A card with additional allegiances prints them in bold alongside its traits,
+ * or grants them in its rules text. The rules treat these exactly like the
+ * allegiance after the type, so they are allegiances here, not traits.
+ *
  * An allegiance determines which faction a card belongs to, and therefore what
  * can recruit it. A card may have several, or none.
  *
@@ -139,10 +143,12 @@ export const SUBTYPES_BY_CARD_TYPE: Readonly<Partial<Record<CardType, readonly C
  * Traits are referenced by other cards' rules text, so the rules engine will
  * match on these values directly. That is why they are a closed union and not
  * free-form strings.
+ *
+ * An allegiance printed in the bold trait line is not listed here; it is one of
+ * the {@link ALLEGIANCES}.
  */
 export const TRAITS = [
   'Accepted',
-  'Aiel',
   'Band of the Red Hand',
   'Black Ajah',
   'Black Eyes',
@@ -155,13 +161,11 @@ export const TRAITS = [
   'Bonded to Owein',
   'Borderland',
   'Brown Ajah',
-  'Cairhien',
   'Capital of Andor',
   'Capital of Cairhien',
   'Capital of Illian',
   "Car'a'carn",
   'Chareen Aiel',
-  'Children of the Light',
   'Clan Chief of the Chareen Aiel',
   'Clan Chief of the Codarra Aiel',
   'Clan Chief of the Daryne Aiel',
