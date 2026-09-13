@@ -70,9 +70,6 @@ Three things about how it is put together are worth knowing:
   points at that directory, so a card's image URL is `/<setId>/<file>` in both
   the dev server and the build, and nothing is copied into the repo twice.
 
-The symbols that appear inline in card text render as coloured text badges. The
-printed glyphs are not available as artwork yet.
-
 ## Card data and images
 
 Both text and scans are reproduced here to preserve a game that has been out of print for over twenty

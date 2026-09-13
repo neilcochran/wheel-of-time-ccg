@@ -8,15 +8,11 @@
   --text: #ece7dc;
   --text-muted: #a49e93;
   --accent: #c9a227;
-  --accent-text: #1b1a17;
 
   --politics: #3f9d5a;
   --intrigue: #4a7fd6;
   --one-power: #f2eee4;
   --combat: #111111;
-  --support: #c9a227;
-  --opposition: #c14a3a;
-  --damage: #d8742e;
 
   font-family:
     system-ui,
@@ -403,50 +399,9 @@ h2 {
 /* Inline symbols */
 
 .symbol {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 1.35em;
-  height: 1.35em;
-  padding: 0 0.3em;
-  margin: 0 0.08em;
-  border: 1px solid var(--border);
-  border-radius: 50%;
-  font-size: 0.72em;
-  font-weight: 700;
-  line-height: 1;
-  vertical-align: 0.1em;
-  color: var(--accent-text);
-}
-
-.symbol--politics {
-  background: var(--politics);
-  color: #ffffff;
-}
-
-.symbol--intrigue {
-  background: var(--intrigue);
-  color: #ffffff;
-}
-
-.symbol--onePower {
-  background: var(--one-power);
-}
-
-.symbol--combat {
-  background: var(--combat);
-  color: #ffffff;
-}
-
-.symbol--support {
-  background: var(--support);
-}
-
-.symbol--opposition {
-  background: var(--opposition);
-  color: #ffffff;
-}
-
-.symbol--damage {
-  background: var(--damage);
+  display: inline-block;
+  height: 1.3em;
+  width: auto;
+  margin: 0 0.1em;
+  vertical-align: -0.3em;
 }
