@@ -8,6 +8,8 @@ import { Layout } from './Layout.tsx';
 import { CardBrowserPage } from './pages/CardBrowserPage.tsx';
 import { CardDetailPage } from './pages/CardDetailPage.tsx';
 import { DatabaseErrorPage } from './pages/DatabaseErrorPage.tsx';
+import { DeckEditorPage } from './pages/DeckEditorPage.tsx';
+import { DeckListPage } from './pages/DeckListPage.tsx';
 import { NotFoundPage } from './pages/NotFoundPage.tsx';
 
 /** The route table. Created once, outside the tree, as the router expects. */
@@ -19,6 +21,8 @@ const router = createBrowserRouter([
       { index: true, element: <Navigate to="/cards" replace /> },
       { path: 'cards', Component: CardBrowserPage },
       { path: 'cards/:cardId', Component: CardDetailPage },
+      { path: 'decks', Component: DeckListPage },
+      { path: 'decks/:deckId', Component: DeckEditorPage },
       { path: '*', Component: NotFoundPage },
     ],
   },
