@@ -1,8 +1,9 @@
 import type { ReactElement } from 'react';
-import { Link, Outlet } from 'react-router';
+import { Link, NavLink, Outlet } from 'react-router';
 
 /**
- * The frame around every page: a header linking home, then the page.
+ * The frame around every page: a header linking home and to each section,
+ * then the page.
  *
  * @returns The layout element.
  */
@@ -13,7 +14,10 @@ export function Layout(): ReactElement {
         <Link to="/cards" className="site-title">
           Wheel of Time CCG
         </Link>
-        <span className="site-subtitle">Card browser</span>
+        <nav className="site-nav" aria-label="Sections">
+          <NavLink to="/cards">Cards</NavLink>
+          <NavLink to="/decks">Decks</NavLink>
+        </nav>
       </header>
       <main className="site-main">
         <Outlet />
