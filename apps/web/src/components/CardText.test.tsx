@@ -6,18 +6,16 @@ import { CardText } from './CardText.tsx';
 afterEach(cleanup);
 
 describe('CardText', () => {
-  it('renders each symbol token as a labelled badge', () => {
+  it('renders each symbol token as a labelled glyph', () => {
     render(<CardText text="Gain [politics][onePower]." />);
-    const badges = screen.getAllByRole('img');
-    expect(badges.map((badge) => badge.getAttribute('aria-label'))).toEqual([
-      'Politics',
-      'One Power',
-    ]);
+    const glyphs = screen.getAllByRole('img');
+    expect(glyphs.map((glyph) => glyph.getAttribute('alt'))).toEqual(['Politics', 'One Power']);
   });
 
   it('keeps the prose around the symbols', () => {
     const { container } = render(<CardText text="Gain [combat] now." />);
-    expect(container.textContent).toBe('Gain C now.');
+    expect(container.textContent).toBe('Gain  now.');
+    expect(screen.getByRole('img', { name: 'Combat' }).previousSibling?.textContent).toBe('Gain ');
   });
 
   it('falls back to the raw text when a token is not a symbol', () => {

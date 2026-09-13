@@ -3,7 +3,7 @@ import type { ReactElement } from 'react';
 
 import { parseCardText } from '@wot/cards';
 
-import { CardSymbolBadge } from './CardSymbolBadge.tsx';
+import { CardSymbolGlyph } from './CardSymbolGlyph.tsx';
 
 /** Props for {@link CardText}. */
 interface CardTextProps {
@@ -12,7 +12,7 @@ interface CardTextProps {
 }
 
 /**
- * Card text with its symbol tokens rendered as badges.
+ * Card text with its symbol tokens rendered as glyphs.
  *
  * The stored text is validated at import time, so an unparseable token is
  * unexpected; the raw text is shown rather than nothing.
@@ -31,7 +31,7 @@ export function CardText({ text }: CardTextProps): ReactElement {
         segment.kind === 'text' ? (
           <Fragment key={index}>{segment.text}</Fragment>
         ) : (
-          <CardSymbolBadge key={index} symbol={segment.symbol} />
+          <CardSymbolGlyph key={index} symbol={segment.symbol} />
         ),
       )}
     </>
