@@ -3,5 +3,10 @@
   "compilerOptions": {
     "types": ["node"]
   },
-  "include": ["packages/*/src/**/*.ts", "tools/*/src/**/*.ts", "vitest.config.ts"]
+  "include": [
+    "packages/*/src/**/*.ts",
+    "tools/*/src/**/*.ts",
+    "apps/*/vite.config.ts",
+    "vitest.config.ts"
+  ]
 }
