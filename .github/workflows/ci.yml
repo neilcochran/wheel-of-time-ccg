@@ -38,3 +38,5 @@ jobs:
       # The generated card database is committed. This fails if it drifts from
       # what data/cards.csv now parses to.
       - run: pnpm import-cards:check
+
+      - run: pnpm build

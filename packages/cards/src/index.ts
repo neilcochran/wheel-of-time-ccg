@@ -41,3 +41,7 @@ export { formatRarity, toCardRarity } from './rarity.ts';
 export type { CardSymbol, CardSymbolRun, CardTextRun, CardTextSegment } from './text.ts';
 
 export { CARD_SYMBOLS, findUnknownSymbolTokens, parseCardText } from './text.ts';
+
+export type { DecodeCardDatabaseResult } from './database.ts';
+
+export { decodeCardDatabase } from './database.ts';

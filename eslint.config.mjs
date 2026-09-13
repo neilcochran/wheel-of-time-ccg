@@ -3,6 +3,8 @@ import prettierConfig from 'eslint-config-prettier';
 import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript';
 import { createNodeResolver, importX } from 'eslint-plugin-import-x';
 import nodePlugin from 'eslint-plugin-n';
+import reactHooks from 'eslint-plugin-react-hooks';
+import reactRefresh from 'eslint-plugin-react-refresh';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
@@ -89,7 +91,14 @@ export default tseslint.config(
       // the `.ts` extensions the sources import with resolve; the Node
       // resolver is the fallback for bare package specifiers.
       'import-x/resolver-next': [
-        createTypeScriptImportResolver({ alwaysTryTypes: true, project: ['tsconfig.json'] }),
+        createTypeScriptImportResolver({
+          alwaysTryTypes: true,
+          // Two projects because the browser app needs the DOM lib and the
+          // Node surfaces must not have it. The resolver suggests merging
+          // them; that is not possible here.
+          project: ['tsconfig.json', 'apps/*/tsconfig.json'],
+          noWarnOnMultipleProjects: true,
+        }),
         createNodeResolver(),
       ],
     },
@@ -111,11 +120,30 @@ export default tseslint.config(
     },
   },
 
-  // Everything in this repo runs on bare Node today. When a browser app lands
-  // under `apps/`, scope this block to the Node surfaces rather than widening
-  // its rules.
+  // The browser app. Its sources run in the browser, so they get browser
+  // globals and the React rules; its Vite config runs in Node and is covered
+  // by the Node block below instead.
   {
-    files: ['packages/**/*.ts', 'tools/**/*.ts', '*.mjs', '*.ts'],
+    ...reactHooks.configs.flat.recommended,
+    files: ['apps/**/*.{ts,tsx}'],
+    ignores: ['apps/*/vite.config.ts'],
+  },
+  {
+    ...reactRefresh.configs.vite,
+    files: ['apps/**/*.{ts,tsx}'],
+    ignores: ['apps/*/vite.config.ts'],
+  },
+  {
+    files: ['apps/**/*.{ts,tsx}'],
+    ignores: ['apps/*/vite.config.ts'],
+    languageOptions: {
+      globals: globals.browser,
+    },
+  },
+
+  // The Node surfaces: the packages, the tools, and every config file.
+  {
+    files: ['packages/**/*.ts', 'tools/**/*.ts', 'apps/*/vite.config.ts', '*.mjs', '*.ts'],
     plugins: { n: nodePlugin },
     // The workspace packages do not carry their own `engines`, so point the
     // plugin at the root's range rather than letting it fall back to its
