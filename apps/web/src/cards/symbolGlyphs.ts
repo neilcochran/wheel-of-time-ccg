@@ -11,8 +11,8 @@ import support from '../assets/symbols/support.png';
 /**
  * Artwork for every symbol that can appear in card text, as image URLs.
  *
- * The glyphs are the ones printed on the game's dice: a goblet for Politics,
- * an open book for Intrigue, the Aes Sedai symbol for One Power, a mounted
+ * The glyphs are the ones printed on the game's dice: an open book for
+ * Politics, a goblet for Intrigue, the Aes Sedai symbol for One Power, a mounted
  * rider for Combat, a dagger for Support, a shield for Opposition and a skull
  * for Damage. Each is 64 px tall on a transparent background, which is about
  * three times its rendered height.
