@@ -2,10 +2,10 @@ import type { ReactElement } from 'react';
 import { Link } from 'react-router';
 
 import type { Card } from '@wot/cards';
+import { copiesOf } from '@wot/engine';
+import type { Deck } from '@wot/engine';
 
 import { cardImageUrl, cardThumbnailUrl } from '../cards/images.ts';
-import { copiesOf } from '../decks/deck.ts';
-import type { Deck } from '../decks/deck.ts';
 
 import { CopyCounter } from './CopyCounter.tsx';
 

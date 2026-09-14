@@ -7,7 +7,8 @@
  * parameter so tests can hand it a fake.
  */
 
-import type { Deck } from './deck.ts';
+import type { Deck } from '@wot/engine';
+
 import { DECK_STORAGE_KEY, decodeDecks, encodeDecks } from './deckStorage.ts';
 
 /** What the store currently holds. */

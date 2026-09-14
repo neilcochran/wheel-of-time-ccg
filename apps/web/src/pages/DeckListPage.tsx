@@ -1,10 +1,10 @@
 import type { ReactElement } from 'react';
 import { Link, useNavigate } from 'react-router';
 
+import { checkDeck, createDeck, newDeckId } from '@wot/engine';
+import type { Deck } from '@wot/engine';
+
 import { useCardDatabase } from '../cards/useCardDatabase.ts';
-import { checkDeck } from '../decks/checkDeck.ts';
-import { createDeck, newDeckId } from '../decks/deck.ts';
-import type { Deck } from '../decks/deck.ts';
 import { DECK_SIDE_LABELS, deckDisplayName, legalityLabel } from '../decks/labels.ts';
 import { deckStore, useDecks } from '../decks/useDecks.ts';
 

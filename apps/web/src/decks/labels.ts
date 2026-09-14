@@ -1,6 +1,4 @@
-import type { DeckReport } from './checkDeck.ts';
-import type { Deck } from './deck.ts';
-import type { DeckSide } from './rules.ts';
+import type { DeckReport, Deck, DeckSide } from '@wot/engine';
 
 /** Display names for the two sides. */
 export const DECK_SIDE_LABELS: Readonly<Record<DeckSide, string>> = {
