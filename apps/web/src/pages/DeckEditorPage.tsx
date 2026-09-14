@@ -2,6 +2,9 @@ import { useMemo } from 'react';
 import type { ReactElement } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router';
 
+import { checkDeck, addCopy, removeCopy, renameDeck } from '@wot/engine';
+import type { Deck } from '@wot/engine';
+
 import { filterCards, parseCardFilter, toSearchParams } from '../cards/filter.ts';
 import type { CardFilter } from '../cards/filter.ts';
 import { useCardDatabase } from '../cards/useCardDatabase.ts';
@@ -10,9 +13,6 @@ import { DeckContents } from '../components/DeckContents.tsx';
 import { DeckReportPanel } from '../components/DeckReportPanel.tsx';
 import { FilterPanel } from '../components/FilterPanel.tsx';
 import { StartingSetup } from '../components/StartingSetup.tsx';
-import { checkDeck } from '../decks/checkDeck.ts';
-import { addCopy, removeCopy, renameDeck } from '../decks/deck.ts';
-import type { Deck } from '../decks/deck.ts';
 import { deckStore, useDecks } from '../decks/useDecks.ts';
 
 import { NotFoundPage } from './NotFoundPage.tsx';

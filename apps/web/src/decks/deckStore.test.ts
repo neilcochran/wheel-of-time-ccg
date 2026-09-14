@@ -1,6 +1,7 @@
 import { beforeEach, describe, expect, it } from 'vitest';
 
-import { createDeck } from './deck.ts';
+import { createDeck } from '@wot/engine';
+
 import { DECK_STORAGE_KEY } from './deckStorage.ts';
 import { createDeckStore } from './deckStore.ts';
 

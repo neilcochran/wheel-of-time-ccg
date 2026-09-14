@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 
-import type { Deck } from './deck.ts';
+import type { Deck } from '@wot/engine';
+
 import { decodeDecks, encodeDecks } from './deckStorage.ts';
 
 const FULL: Deck = {

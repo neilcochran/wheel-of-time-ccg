@@ -1,21 +1,18 @@
 import type { ReactElement } from 'react';
 
 import type { Card } from '@wot/cards';
-
 import {
   setFaceDownDragonReborn,
   setStartingAdvantage,
   setStartingCharacter,
   setStartingHand,
-} from '../decks/deck.ts';
-import type { Deck } from '../decks/deck.ts';
-import {
   STARTING_HAND_OTHER_CARDS,
   isDragonRebornStartingHero,
   isStartingAdvantage,
   needsFaceDownDragonReborn,
   startingSideOf,
-} from '../decks/rules.ts';
+} from '@wot/engine';
+import type { Deck } from '@wot/engine';
 
 /** Props for {@link StartingSetup}. */
 interface StartingSetupProps {

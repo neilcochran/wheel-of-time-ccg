@@ -3,8 +3,7 @@ import { Link } from 'react-router';
 
 import { CARD_TYPES } from '@wot/cards';
 import type { Card } from '@wot/cards';
-
-import type { Deck } from '../decks/deck.ts';
+import type { Deck } from '@wot/engine';
 
 import { CopyCounter } from './CopyCounter.tsx';
 

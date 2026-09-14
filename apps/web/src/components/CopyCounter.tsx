@@ -1,6 +1,6 @@
 import type { ReactElement } from 'react';
 
-import { MAX_COPIES } from '../decks/rules.ts';
+import { MAX_COPIES } from '@wot/engine';
 
 /** Props for {@link CopyCounter}. */
 interface CopyCounterProps {

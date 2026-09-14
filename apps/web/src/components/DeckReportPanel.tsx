@@ -1,6 +1,7 @@
 import type { ReactElement } from 'react';
 
-import type { DeckIssue, DeckReport } from '../decks/checkDeck.ts';
+import type { DeckIssue, DeckReport } from '@wot/engine';
+
 import { DECK_SIDE_LABELS, legalityLabel } from '../decks/labels.ts';
 
 /** Props for {@link DeckReportPanel}. */

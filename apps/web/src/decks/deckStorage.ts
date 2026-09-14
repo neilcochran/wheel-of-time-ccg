@@ -7,7 +7,7 @@
  * document that fails to decode must be reported, never quietly replaced.
  */
 
-import type { Deck, DeckEntry } from './deck.ts';
+import type { Deck, DeckEntry } from '@wot/engine';
 
 /** The local storage key holding the saved decks document. */
 export const DECK_STORAGE_KEY = 'wot-ccg:decks';
