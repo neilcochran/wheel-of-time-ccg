@@ -87,8 +87,8 @@ export function CardDetailPage(): ReactElement {
           className="card-detail__image"
           src={cardImageUrl(card)}
           alt={`Scan of ${card.name}`}
-          width={305}
-          height={430}
+          width={360}
+          height={504}
         />
 
         <div className="card-detail__facts">
@@ -151,8 +151,8 @@ export function CardDetailPage(): ReactElement {
                     <img
                       src={printingImageUrl(card, printing)}
                       alt={`Scan of ${printing.name}`}
-                      width={153}
-                      height={215}
+                      width={180}
+                      height={252}
                       loading="lazy"
                     />
                     <div>

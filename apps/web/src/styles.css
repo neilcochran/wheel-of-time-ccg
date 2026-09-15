@@ -225,7 +225,7 @@ h2 {
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(153px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 1rem 0.75rem;
   margin: 0;
   padding: 0;
@@ -240,7 +240,7 @@ h2 {
 
 .card-tile img {
   width: 100%;
-  aspect-ratio: 153 / 215;
+  aspect-ratio: 5 / 7;
   border-radius: 6px;
   background: var(--bg-inset);
   transition: transform 120ms ease-out;
@@ -279,7 +279,7 @@ h2 {
 
 .card-detail__body {
   display: grid;
-  grid-template-columns: 305px minmax(0, 1fr);
+  grid-template-columns: 360px minmax(0, 1fr);
   gap: 2rem;
   align-items: start;
 }
