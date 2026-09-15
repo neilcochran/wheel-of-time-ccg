@@ -34,8 +34,8 @@ export function CardGrid({ cards }: CardGridProps): ReactElement {
               src={cardThumbnailUrl(card)}
               srcSet={`${cardThumbnailUrl(card)} 1x, ${cardImageUrl(card)} 2x`}
               alt=""
-              width={153}
-              height={215}
+              width={180}
+              height={252}
               loading="lazy"
             />
             <span className="card-tile__name">{card.name}</span>
